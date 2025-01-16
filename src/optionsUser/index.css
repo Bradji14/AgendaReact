@@ -1,0 +1,28 @@
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.errors{
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 10px;
+    background: blueviolet;
+    padding: 5px;
+
+  }
+.errorsForm{
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background: rgb(185, 143, 26);
+    padding: 5px;
+    border-radius:0 10px 10px 10px;
+  }
+  .cont{
+    width: 100%;
+    background: #9363cc;
+    padding: 50px;
+  }
+  .options p{
+    color: #fff;
+  }

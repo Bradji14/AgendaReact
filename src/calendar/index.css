@@ -1,0 +1,85 @@
+.content{
+    background: rgb(201, 198, 198);
+    /* background: linear-gradient(to right, #642b73, #c6426e);*/
+  }
+
+
+.select{
+  margin: 40px;
+}
+.calendar{
+background: #ffff;
+padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .calendar {
+  margin-top: 30px;
+  }
+
+}
+
+.divleyenda{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.leyenda{
+text-align: center;
+}
+.dataFr{
+  margin-top: 60px;
+  margin-left: -30px;
+}
+.dataFr p{
+  font-size: 17px;
+  color: #6a1e74;
+  font-weight: bold;
+}
+.dataFr span{
+  font-weight: normal;
+}
+.direcc{
+  display: flex;
+  flex-direction: row;
+}
+.tel{
+  margin-left: 50px;
+
+}
+.direcc img{
+  width: 50px;
+  height: 50px;
+
+}
+.textFran{
+  color: #fff;
+  font-size: 17px;
+}
+.resultText{
+  font-weight: bold;
+}
+/* .Gen{
+  width: 100%;
+  background: #b6b3df;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.calendar{
+  display: block;
+  color: #b6b3df;
+} */
+/* 
+.Gen{
+  width: 100%;
+  background: plum;
+}
+.sectionCalendar{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ 
+}
+ */
